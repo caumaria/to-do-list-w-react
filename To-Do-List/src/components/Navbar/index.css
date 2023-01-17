@@ -1,0 +1,46 @@
+.navbar {
+    position: fixed;
+    background-color: #FFE5EA;
+    top: 0;
+    width: 6rem;
+    height: 100vh;
+}
+  
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+  
+.logo {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    width: 6rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    background-image: url(./cherries.png);
+    background-size: 4rem;
+    background-position: center;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+    margin-bottom: 2rem;
+}
+  
+.nav-link svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    padding: .45rem;
+    fill: #FF80A6;
+    border-style: dashed;
+    border-color: #FFACC5;
+}
+  
+
