@@ -4,7 +4,6 @@ const NavItem = () => {
   return (
     <li>
       <div style={{
-        background: 'white',
         display: 'grid',
         alignItems: 'center',
         justifyContent: 'center',
