@@ -22,12 +22,13 @@ const NavItem = () => {
             display: 'flex',
             index: '1',
             }}>    
-            <img src="paw.svg" 
+            <img 
             style={{
+                path:'./paw.svg',
                 fill: 'white', 
                 width: '40px', 
                 height: '40px',
-                background: 'url(paw.svg) no-repeat',
+                background: 'url(paw.svg)',
                 backgroundSize: 'contain',
                 index: '10',
                 }}>
