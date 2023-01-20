@@ -4,8 +4,7 @@ import Calculator from './pages/Calculator';
 import Home from './pages/Home';
 import Notes from './pages/Notes';
 
-function App() {
-  
+function App() {  
 
   return (
     <div className="App">
